@@ -1,8 +1,8 @@
 {
-  "name": "Manip",
-  "version": "0.1.0",
-  "description": "A library for manipulating nested data in a way reminiscent of MongoDB's \"Field Update Operators\" work (eg. $set)",
-  "author": "Matthew Forrester <manip@keyboardwritescode.com>",
+  "name": "get_tlid_encoder_decoder",
+  "version": "0.9.1",
+  "description": "Generates (locally) unique incrementing numbers",
+  "author": "Matthew Forrester <get_tlid_encoder_decoder@keyboardwritescode.com>",
   "dependencies": {},
   "devDependencies": {
     "jquery": "~2.1.0-beta3",
@@ -16,6 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/forbesmyester/manip.git"
+    "url": "https://github.com/forbesmyester/getTLIdEncoderDecoder.git"
+  },
+  "scripts": {
+    "test": "mocha test/index.js"
   }
 }
