@@ -16,7 +16,7 @@
 		define(
 			[
 				'expect.js',
-				'../index.js'
+				'../index.umd'
 			],
 			factory
 		);
@@ -24,7 +24,7 @@
 		// Browser globals (root is window)
 		root.returnExports = factory(
 			root.expect,
-			root.getTLIdEncoderDecoder
+			root.gettlidencoderdecoder
 		);
 	}
 })(this, function (
