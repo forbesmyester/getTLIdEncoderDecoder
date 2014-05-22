@@ -1,6 +1,6 @@
 {
   "name": "get_tlid_encoder_decoder",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Generates (locally) unique incrementing numbers",
   "author": "Matthew Forrester <get_tlid_encoder_decoder@keyboardwritescode.com>",
   "dependencies": {},
