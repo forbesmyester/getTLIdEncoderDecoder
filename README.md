@@ -5,6 +5,7 @@ Given a supplied epoch it will generate you TLId, which is a word I just invente
 What is a TLId? It stands for Time Local Id and gives you a reference based on a timestamp that is locally unique.
 
 Advantages:
+ * Timestamps will nearly always be unique, whereas these are guarenteed to be unique.
  * The are shorter than timestamps (though not by a lot).
  * You can extract the timestamp that the TLId was generated.
  * If you want them ordered by generation time, you do not need to convert them back to timestamps beforehand.
