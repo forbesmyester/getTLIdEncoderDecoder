@@ -88,7 +88,7 @@ return function(epoch,uniqueLength) {
     }
 
 	var superUnique = (++index).toString(32);
-	if (superUnique.length < uniqueLength) {
+	while (superUnique.length < uniqueLength) {
 		superUnique = '0' + superUnique;
 	}
 	var timeEncoded = (now - epoch).toString(32);

@@ -40,7 +40,7 @@
 
 describe('getTLIdEncoderDecoder',function() {
 	it('can encode timestamp and then decode',function() {
-		var ed = getTLIdEncoderDecoder(new Date(1970,5,5).getTime());
+		var ed = getTLIdEncoderDecoder(new Date(1970,5,5).getTime(), 5);
 		for (var i=0;i<100;i++) {
 			var d = new Date().getTime();
 			expect(ed.decode(ed.encode(d))).to.equal(d);
