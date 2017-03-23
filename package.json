@@ -1,9 +1,10 @@
 {
   "name": "get_tlid_encoder_decoder",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Generates (locally) unique incrementing numbers",
   "author": "Matthew Forrester <get_tlid_encoder_decoder@keyboardwritescode.com>",
   "dependencies": {},
+  "typings": "./index.d.ts",
   "devDependencies": {
     "jquery": "~2.1.0-beta3",
     "expect.js": "0.2.x",
